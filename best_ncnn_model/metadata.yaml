@@ -1,0 +1,23 @@
+description: Ultralytics YOLOv12n model trained on /content/lettuce-3/data.yaml
+author: Ultralytics
+date: '2025-05-23T14:13:19.433301'
+version: 8.3.143
+license: AGPL-3.0 License (https://ultralytics.com/license)
+docs: https://docs.ultralytics.com
+stride: 32
+task: detect
+batch: 1
+imgsz:
+- 224
+- 224
+names:
+  0: bacteria
+  1: Downy_mildew_on_lettuce
+  2: Healthy
+  3: Lettuce Mosaic Virus
+  4: Powdery_mildew_on_lettuce
+  5: Septoria_Blight_on_lettuce
+args:
+  batch: 1
+  half: false
+channels: 3
